@@ -71,14 +71,32 @@ body:before {
 .partners-container {
     display: flex;
     max-width: 100%;
-    color: var(--Blue-600);
-    justify-content: space-around;
+    gap: 1rem;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 2.5rem;
 }
 
 .partners-container img {
     height: auto;
-    color: var(--Blue-600);
+    max-width: 100%;
+    fill: var(--Blue-600) !important;
+}
+
+.logo-wrapper {
+    flex: 0 1 auto;
+    min-width: 0;
+    height: auto;
+}
+
+.email-input {
+    border-radius: 999px;
+    background-color: var(--Blue-900);
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 700;
+    opacity: 50%;
+    color: var(--White);
 }
 
 
