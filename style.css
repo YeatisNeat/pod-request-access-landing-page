@@ -89,6 +89,11 @@ body:before {
     height: auto;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
 .email-input {
     border-radius: 999px;
     background-color: var(--Blue-900);
@@ -97,6 +102,7 @@ body:before {
     font-weight: 700;
     opacity: 50%;
     color: var(--White);
+    height: 2.5rem;
 }
 
 
